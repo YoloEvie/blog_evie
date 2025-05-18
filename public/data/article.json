@@ -6,12 +6,12 @@
         "content":"./md/dl.md",
         "time":"2025-2",
         "imgs":[
-            "/imgs/d001.jpg",
-            "/imgs/d002.jpg",
-            "/imgs/d003.jpg",
-            "/imgs/d004.jpg",
-            "/imgs/d005.jpg",
-            "/imgs/d006.jpg"
+            "./imgs/d001.jpg",
+            "./imgs/d002.jpg",
+            "./imgs/d003.jpg",
+            "./imgs/d004.jpg",
+            "./imgs/d005.jpg",
+            "./imgs/d006.jpg"
         ]
     },{
         "id":  "002",
@@ -20,12 +20,12 @@
         "content":"./md/qh.md",
         "time":"2024-08",
         "imgs":[
-            "/imgs/x001.JPG",
-            "/imgs/x002.JPG",
-            "/imgs/x003.JPG",
-            "/imgs/x004.JPG",
-            "/imgs/x005.JPG",
-            "/imgs/x006.JPG"
+            "./imgs/x001.JPG",
+            "./imgs/x002.JPG",
+            "./imgs/x003.JPG",
+            "./imgs/x004.JPG",
+            "./imgs/x005.JPG",
+            "./imgs/x006.JPG"
         ]
         
     },{
@@ -35,12 +35,12 @@
         "content":"./md/xa.md",
         "time":"2023-12",
         "imgs":[
-            "/imgs/xa001.JPG",
-            "/imgs/xa002.JPG",
-            "/imgs/xa003.JPG",
-            "/imgs/xa004.JPG",
-            "/imgs/xa005.JPG",
-            "/imgs/xa006.JPG"
+            "./imgs/xa001.JPG",
+            "./imgs/xa002.JPG",
+            "./imgs/xa003.JPG",
+            "./imgs/xa004.JPG",
+            "./imgs/xa005.JPG",
+            "./imgs/xa006.JPG"
         ]
     },{
         "id":  "004",
@@ -49,12 +49,12 @@
         "content":"./md/sxd.md",
         "time":"2023-11",
         "imgs":[
-            "/imgs/s001.JPG",
-            "/imgs/s002.JPG",
-            "/imgs/s003.JPG",
-            "/imgs/s004.JPG",
-            "/imgs/s005.JPG",
-            "/imgs/s006.JPG"
+            "./imgs/s001.JPG",
+            "./imgs/s002.JPG",
+            "./imgs/s003.JPG",
+            "./imgs/s004.JPG",
+            "./imgs/s005.JPG",
+            "./imgs/s006.JPG"
         ]
     }
 ]

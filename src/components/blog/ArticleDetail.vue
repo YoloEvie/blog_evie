@@ -73,7 +73,7 @@ marked.setOptions({
 // 获取文章数据
 const fetchArticles = async () => {
   try {
-    const response = await fetch("/data/article.json");
+    const response = await fetch("./data/article.json");
     if (!response.ok) throw new Error("数据加载失败");
     articles.value = await response.json();
   } catch (error) {

@@ -34,7 +34,7 @@ const drawings = ref([]);
 
 const fetchDrawings = async () => {
   try {
-    const response = await fetch("/data/draw.json");
+    const response = await fetch("./data/draw.json");
     drawings.value = await response.json();
   } catch (error) {
     console.error("数据加载失败:", error);

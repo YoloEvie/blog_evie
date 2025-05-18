@@ -29,7 +29,7 @@ const nongQuData = ref({ work: [] });
 
 const fetchData = async () => {
   try {
-    const response = await fetch("/data/design.json");
+    const response = await fetch("./data/design.json");
     const data = await response.json();
 
     // 安全数据赋值

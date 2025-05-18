@@ -67,7 +67,7 @@ const error = ref("");
 // 获取开发类博客
 const fetchTechBlogs = async () => {
   try {
-    const response = await fetch("/data/tech-blogs.json");
+    const response = await fetch("./data/tech-blogs.json");
     if (!response.ok) throw new Error("数据加载失败");
     // techData.value = await response.json();
     const data = await response.json();
@@ -82,7 +82,7 @@ const fetchTechBlogs = async () => {
 // 获取生活类博客
 const fetchLifeBlogs = async () => {
   try {
-    const response = await fetch("/data/article.json");
+    const response = await fetch("./data/article.json");
     if (!response.ok) throw new Error("数据加载失败");
     const data = await response.json();
     lifeData.value = data.slice(0, 3);

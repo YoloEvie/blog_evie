@@ -77,6 +77,7 @@ const route = [
 const router = createRouter({
   history: createWebHashHistory(),
   routes: route,
+  mode: "hash",
 });
 // router.beforeEach((to, from, next) => {
 //   if (to.matched.some((record) => record.meta.requiresAuth)) {

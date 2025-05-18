@@ -92,7 +92,7 @@ const getRandomPosition = () => {
 
 const fetchData = async () => {
     try {
-        const response = await fetch("/data/message.json")
+        const response = await fetch("./data/message.json")
         const data = await response.json()
         presetData.value = data.map((item, index) => ({
             ...item,

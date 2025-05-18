@@ -70,7 +70,7 @@ const error = ref(null);
 // 数据获取函数
 const fetchData = async () => {
   try {
-    const response = await fetch("/data/photo.json");
+    const response = await fetch("./data/photo.json");
     if (!response.ok) throw new Error("数据加载失败");
     const result = await response.json();
     data.value = result;

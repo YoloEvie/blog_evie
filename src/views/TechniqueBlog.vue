@@ -15,7 +15,7 @@ import Technique from "../components/blog/Technique.vue";
 
 const movieData = ref([]); // 使用ref创建响应式引用
 
-fetch("/data/tech-blogs.json")
+fetch("./data/tech-blogs.json")
   .then((res) => res.json())
   .then((res) => {
     movieData.value = res; // 更新响应式数据

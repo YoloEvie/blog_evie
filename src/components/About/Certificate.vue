@@ -64,7 +64,7 @@ const fetchData = async () => {
     loading.value = true;
     errorMessage.value = "";
 
-    const response = await fetch("/data/certificate.json");
+    const response = await fetch("./data/certificate.json");
 
     if (!response.ok) {
       throw new Error(`数据请求失败 (${response.status})`);
