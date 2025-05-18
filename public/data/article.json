@@ -1,0 +1,60 @@
+[
+    {
+        "id":  "001",
+        "title":"大理游记",
+        "info":"是420公里的公路与350公里的山海对话，是四个日夜的晨昏流转，更是与无数个‘没想到’的惊喜相遇。",
+        "content":"./md/dl.md",
+        "time":"2025-2",
+        "imgs":[
+            "/imgs/d001.jpg",
+            "/imgs/d002.jpg",
+            "/imgs/d003.jpg",
+            "/imgs/d004.jpg",
+            "/imgs/d005.jpg",
+            "/imgs/d006.jpg"
+        ]
+    },{
+        "id":  "002",
+        "title":"青海游记",
+        "info":"在西宁的巷弄间，甜醅子奶茶的清甜与手抓羊肉的醇厚在味蕾碰撞，南关清真大寺的穹顶将朝霞折射成异域的诗行。",
+        "content":"./md/qh.md",
+        "time":"2024-08",
+        "imgs":[
+            "/imgs/x001.JPG",
+            "/imgs/x002.JPG",
+            "/imgs/x003.JPG",
+            "/imgs/x004.JPG",
+            "/imgs/x005.JPG",
+            "/imgs/x006.JPG"
+        ]
+        
+    },{
+        "id":  "003",
+        "title":"西安游记",
+        "info":"周末邂逅：西安古韵之旅。周五：成都东→西安北→回民街→城墙夜景；周六：兵马俑→华清宫→大唐不夜城。",
+        "content":"./md/xa.md",
+        "time":"2023-12",
+        "imgs":[
+            "/imgs/xa001.JPG",
+            "/imgs/xa002.JPG",
+            "/imgs/xa003.JPG",
+            "/imgs/xa004.JPG",
+            "/imgs/xa005.JPG",
+            "/imgs/xa006.JPG"
+        ]
+    },{
+        "id":  "004",
+        "title":"三星堆游记",
+        "info":"以“青铜秘境”为核心，串联交通、展馆亮点、体验与实用攻略，打造兼具文化深度与旅行趣味的沉浸式游记。",
+        "content":"./md/sxd.md",
+        "time":"2023-11",
+        "imgs":[
+            "/imgs/s001.JPG",
+            "/imgs/s002.JPG",
+            "/imgs/s003.JPG",
+            "/imgs/s004.JPG",
+            "/imgs/s005.JPG",
+            "/imgs/s006.JPG"
+        ]
+    }
+]
