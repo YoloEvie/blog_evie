@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [vue()],
   base:
     process.env.NODE_ENV === "production"
-      ? "/blog_evie/" // 替换为你的仓库名称
+      ? "/blog_E/" // 替换为你的仓库名称
       : "/",
 });
