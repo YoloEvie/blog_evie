@@ -8,6 +8,12 @@
       :works="shuHongData.work"
     />
     <ArtWork
+      v-if="zhiwuData.work"
+      :title="zhiwuData.name"
+      :info="zhiwuData.info"
+      :works="zhiwuData.work"
+    />
+    <ArtWork
       v-if="nongQuData.work"
       :title="nongQuData.name"
       :info="nongQuData.info"
@@ -26,12 +32,18 @@ import Draws from "../components/work/Draws.vue";
 const loading = ref(true);
 const shuHongData = ref({ work: [] });
 const nongQuData = ref({ work: [] });
+const zhiwuData = ref({ work: [] });
 
 const fetchData = async () => {
   try {
     const response = await fetch("./data/design.json");
     const data = await response.json();
 
+    zhiwuData.value = {
+      name: data["纸舞川魂"]?.name || "",
+      info: data["纸舞川魂"]?.info || "",
+      work: data["纸舞川魂"]?.work || [],
+    };
     // 安全数据赋值
     shuHongData.value = {
       name: data["蜀红记忆"]?.name || "",
